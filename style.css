@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    background: #080808;
+}
+
+.header {
+    padding-top: 7%;
+    color: white; 
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote-box {
+    color: #cacaca;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.generate {
+    text-align: center;
+}
+
+
+.generate-btn {
+    font-size: 35px;
+    height: 55px;
+    left: 47.5%;
+    position: absolute;
+    width: 225px;
+    color: white;
+    border: 2px solid rgb(253, 203, 66);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.25s;
+}
+
+.generate-btn:hover {
+    background-color: rgb(253, 203, 66);
+}
