@@ -36,7 +36,6 @@ body {
 .generate-btn {
     font-size: 35px;
     height: 55px;
-    left: 45.5%;
     position: absolute;
     width: 225px;
     color: white;
@@ -44,8 +43,28 @@ body {
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.25s;
+    left: 50%; /* Center horizontally at 50% */
+    transform: translateX(-50%); /* Move back by 50% of its own width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .generate-btn:hover {
     background-color: rgb(253, 203, 66);
+}
+
+@media only screen and (max-width: 600px) {
+    .quote-box {
+        font-size: 20px;
+
+    }
+
+    .generate-btn {
+        margin-top: 50px;
+        height: 30px;
+        width: 120px;
+        font-size: 20px;
+    }
+
 }
